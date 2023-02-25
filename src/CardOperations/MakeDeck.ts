@@ -7,8 +7,7 @@ export const MakeDeck = () => {
 	const deck: Deck = [];
 	suits.forEach(suit => {
 		values.forEach(value => {
-			const card = { number: ++num, suit: suit, value: value };
-			deck.push(card);
+			deck.push({ number: ++num, suit, value });
 		});
 	});
 	return deck;

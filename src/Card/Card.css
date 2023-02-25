@@ -13,9 +13,9 @@
 .value {
 	position: relative;
 	font-weight: bold;
-	font-family: 'Times New Roman', Times, serif;
 	align-self: center;
 	margin: auto;
+	font-size: 1.2em;
 }
 .suit-top {
 	position: absolute;
