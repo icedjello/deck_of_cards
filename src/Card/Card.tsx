@@ -8,24 +8,11 @@ type CardProps = {
 };
 
 export const Card: FC<CardProps> = ({ suit, value }) => {
-	const suitAsSymbol = () => {
-		switch (suit) {
-			case 'Hearts':
-				return '♥️';
-			case 'Diamonds':
-				return '♦️';
-			case 'Clubs':
-				return '♣️';
-			case 'Spades':
-				return '♠️';
-		}
-	};
-
 	return (
-		<div className={(suit === 'Hearts' || suit === 'Diamonds' ? 'red' : 'black') + ' card'}>
-			<span className='suit-top'>{suitAsSymbol()}</span>
+		<div className={(suit === '♥️' || suit === '♦️' ? 'red' : 'black') + ' card'}>
+			<span className='suit-top'>{suit}</span>
 			<span className='value'>{value[0]}</span>
-			<span className='suit-bottom'>{suitAsSymbol()}</span>
+			<span className='suit-bottom'>{suit}</span>
 		</div>
 	);
 };

@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import { shuffle, sortBy, random } from 'lodash';
-import { MakeDeck } from './CardOperations/MakeDeck';
+import { MakeDeck } from './MakeDeck';
 import { Card } from './Card/Card';
 import type { SingleCard } from './Types';
 
