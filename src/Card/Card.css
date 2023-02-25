@@ -1,0 +1,30 @@
+.card {
+	position: relative;
+	height: 90px;
+	width: 60px;
+	border: 2px solid black;
+	cursor: pointer;
+	border-radius: 6px;
+	display: flex;
+}
+.red {
+	color: red;
+}
+.value {
+	position: relative;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	align-self: center;
+	margin: auto;
+}
+.suit-top {
+	position: absolute;
+	top: 2px;
+	left: 5px;
+}
+.suit-bottom {
+	position: absolute;
+	bottom: 2px;
+	right: 5px;
+	transform: scale(1, -1);
+}
