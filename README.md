@@ -1,4 +1,29 @@
-# Getting Started with Create React App
+# Deck of Cards
+
+## Introduction
+
+Develop a web app in react, for a standard deck of cards (https://en.wikipedia.org/wiki/Standard_52-card_deck) on which we can perform some operations.
+
+## Minimum Requirements
+
+1. Display all 52 cards.
+2. Shuffle the cards, so that they appear in a random order.
+3. Draw (remove a card from the deck).
+4. Sort the cards.
+
+## Technical Constraints
+
+- The only requirement is that you use react to build the webapp.
+- Use whatever means to set-up your react environment, although create-react-app will suffice.
+- You are free to use whatever else you like, however, it’s recommended you don’t spend too much time on unnecessarily complicated technologies.
+
+## Submission
+
+- For this task to be accepted the minimum requirements above must be met.
+- How the app is laid out and how the user interacts with it are left to the developer.
+- You have 24 hour from the time you receive this task to submit it.
+- To submit this task, please provide a link to a repo (github, gitlab etc.) if that is not possible then email to us.
+- If you are invited to the final interview please be ready to discuss your work.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,34 +38,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
